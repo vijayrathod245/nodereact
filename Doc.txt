@@ -1,0 +1,31 @@
+Create .gitignore file in project
+git ini
+npm init
+npm i express express-validator bcryptjs config gravatar jsonwebtoken mongoose request
+npm i -D nodemon concurrently
+Create server.js file in project and file code
+Change in package.json file
+	"scripts": {
+    "start": "node server",
+    "server": "nodemon server"
+  },
+npm run server
+check http://localhost:5000
+git add .
+git commit -m "Initial commit"  (git config --global user.email "vijayrathod245@gmail.com")
+Create config folder in project
+	- default.json
+	- db.js
+npm run server 
+Create Routes folder
+	-users.js
+	-auth.js
+	-profile.js
+	-post.js
+
+
+// reactjs
+// Create folder in reactjs project
+npm i axios react-router-dom redux react-redux redux-thunk redux-devtools-extension moment react-moment
+
+npm run dev
